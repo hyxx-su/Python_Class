@@ -1,0 +1,12 @@
+print("*"*30)
+print()
+print(f'       체질량 지수 계산      ')
+print()
+print(f' BMI = 체중 / (키 / 100) ** 2')
+print()
+print("*"*30)
+kg = int(input("체중(Kg) : "))
+cm = int(input("키(cm) : "))
+print("*"*30)
+BMI = kg / (cm / 100)**2
+print(f'당신의 BMI : {BMI:.1f}')
